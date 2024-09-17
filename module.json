@@ -1,25 +1,28 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "Frik-and-Frak",
+  "title": "Frik and Frak",
   "version": "#{VERSION}#",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Zachary Cook",
+      "url": "https://github.com/digitalshadowhawk",
+      "discord": "digitalshadowhawk",
+      "flags": {}
     }
   ],
   "relationships": {
-    "systems": [],
-    "requires": []
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
   },
   "esmodules": [
     "scripts/module.js"
@@ -34,7 +37,8 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "languages/en.json"
+      "path": "languages/en.json",
+      "flags": {}
     }
   ],
   "url": "#{URL}#",
@@ -45,7 +49,33 @@
   "media": [
     {
       "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "fandf-scenes",
+      "label": "F&F-Scenes",
+      "path": "packs/fandf-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+    {
+      "name": "fandf-actors",
+      "label": "F&F-Actors",
+      "path": "packs/fandf-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
     }
   ]
 }
