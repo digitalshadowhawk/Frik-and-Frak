@@ -56,26 +56,15 @@
   ],
   "packs": [
     {
-      "name": "fandf-scenes",
-      "label": "F&F-Scenes",
-      "path": "packs/fandf-scenes",
-      "type": "Scene",
+      "name": "fandf",
+      "label": "F&F",
+      "path": "packs/fandf",
+      "type": "Adventure",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
-    },
-    {
-      "name": "fandf-actors",
-      "label": "F&F-Actors",
-      "path": "packs/fandf-actors",
-      "type": "Actor",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     }
   ]
 }
