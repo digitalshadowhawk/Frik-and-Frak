@@ -1,6 +1,7 @@
-2024/09/18-18:10:17.499 2b6e4 Log #8: 2 ops saved to Table #9 OK
-2024/09/18-18:10:17.499 2b6e4 Archiving E:\FoundryVTT\Data\modules\Frik-and-Frak\packs\fandf/000008.log: OK
-2024/09/18-18:10:17.500 2b6e4 Table #5: 5 entries OK
-2024/09/18-18:10:17.500 2b6e4 Table #9: 2 entries OK
-2024/09/18-18:10:17.501 2b6e4 Archiving E:\FoundryVTT\Data\modules\Frik-and-Frak\packs\fandf/MANIFEST-000007: OK
-2024/09/18-18:10:17.503 2b6e4 **** Repaired leveldb E:\FoundryVTT\Data\modules\Frik-and-Frak\packs\fandf; recovered 2 files; 28714 bytes. Some data may have been lost. ****
+2024/09/19-12:48:43.324 1758 Recovering log #23
+2024/09/19-12:48:43.329 1758 Delete type=0 #23
+2024/09/19-12:48:43.329 1758 Delete type=3 #21
+2024/09/19-12:49:30.251 450c Level-0 table #28: started
+2024/09/19-12:49:30.251 450c Level-0 table #28: 0 bytes OK
+2024/09/19-12:49:30.253 450c Delete type=0 #26
+2024/09/19-12:49:30.255 450c Manual compaction at level-0 from '!adventures!bAxwhnLZDZgoxEMx' @ 72057594037927935 : 1 .. '!adventures!bAxwhnLZDZgoxEMx' @ 0 : 0; will stop at (end)
