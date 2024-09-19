@@ -1,1 +1,13 @@
-2024/09/18-12:40:37.439 3418 Delete type=3 #1
+2024/09/18-18:10:17.508 2b6e4 Delete type=3 #1
+2024/09/18-20:36:04.977 3208c Level-0 table #13: started
+2024/09/18-20:36:04.979 3208c Level-0 table #13: 20965 bytes OK
+2024/09/18-20:36:04.980 3208c Delete type=0 #11
+2024/09/18-20:36:04.987 3208c Manual compaction at level-0 from '!adventures!bAxwhnLZDZgoxEMx' @ 72057594037927935 : 1 .. '!adventures!bAxwhnLZDZgoxEMx' @ 0 : 0; will stop at '!adventures!bAxwhnLZDZgoxEMx' @ 1 : 1
+2024/09/18-20:36:04.987 3208c Compacting 3@0 + 0@1 files
+2024/09/18-20:36:04.989 3208c Generated table #14@0: 1 keys, 10138 bytes
+2024/09/18-20:36:04.989 3208c Compacted 3@0 + 0@1 files => 10138 bytes
+2024/09/18-20:36:04.990 3208c compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/09/18-20:36:04.990 3208c Delete type=2 #5
+2024/09/18-20:36:04.990 3208c Delete type=2 #9
+2024/09/18-20:36:04.990 3208c Delete type=2 #13
+2024/09/18-20:36:04.995 3208c Manual compaction at level-0 from '!adventures!bAxwhnLZDZgoxEMx' @ 1 : 1 .. '!adventures!bAxwhnLZDZgoxEMx' @ 0 : 0; will stop at (end)
